@@ -52,13 +52,8 @@ Step 4:  Finally, two Data/AI Human Subject Matter Experts (SMEs) rated each res
 
 ## Analysis 
 
-On average, the human scorers rated question responses **lower** then the GenAI LLM.  It is important to note that neither the human or GenAI LLM rated any response less than a 3.
-
-![Question_Avg](grouped_bar_chart1.png)
-
-Human scorers scored similar to the GenAI LLM for models 1 and 2 (ChatGPT-4o and Claude 3.5 Sonnet) with a higher disparity in scores for models 3 and 4 (Gemini 1.5 Pro and Llama 3.1 70B)
-
-![Model_Avg](grouped_bar_chart.png)
+On average, humans rated responses equally for each sex and so did the LLMs
+![Sex vs Scores](images/sex_by_human_model.png)
 
 ## Conclusion
 
