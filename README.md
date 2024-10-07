@@ -7,7 +7,7 @@ This project is a submission of the 2024 Women in Data (WiD) GenAI Playbook Data
 When preparing for interviews, potential candidates may heavily rely on LLMs to generate "ideal" responses for multiple interview questions.  The goal is to analyze if using GenAI for interview prep is unbiased if given a specific gender as a persona.  Furthermore, our overall project question is:  "If the feedback generated is "good" "unbiased" feedback and in-line with human feedback?" If the answer is "yes" **tuned** GenAI tools could be potentially used by companies to save humans time in the interviewing process.  
 
 ## Data Collection Methodology 
-Four popular GenAI LLMs: ChatGPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, and Llama 3.1 70B were used in this analysis.  
+Four popular GenAI LLMs: (1) ChatGPT-4o, (2) Claude 3.5 Sonnet, (4) Gemini 1.5 Pro, and (5) Llama 3.1 70B were used in this analysis.  
 
 Step 1:  Each model was prompted to answer the following ten questions with the first five being classified as "Behavioral" questions and the latter "Technical":
 
@@ -44,6 +44,16 @@ Step 4:  Finally, two Data/AI Human Subject Matter Experts (SMEs) rated each res
 
 ## Analysis 
 
-## Insights 
+On average, the human scorers rated question responses **lower** then the GenAI LLM.  It is important to note that neither the human or GenAI LLM rated any response less than a 3.
+
+![Question_Avg](grouped_bar_chart1.png)
+
+Human scorers scored similar to the GenAI LLM for models 1 and 2 (ChatGPT-4o and Claude 3.5 Sonnet) with a higher disparity in scores for models 3 and 4 (Gemini 1.5 Pro and Llama 3.1 70B)
+
+![Model_Avg](grouped_bar_chart.png)
+
+## Conclusion
+
+## Future Steps
 
 ### Project Contributors 
