@@ -1,7 +1,15 @@
 # GenAI Gender Bias Interview Analysis 
 
 ## Overview 
-This project is a submission of the 2024 Women in Data (WiD) GenAI Playbook Datathon.  The goal of this datathon was to test multiple generative AI systems for advantages/disadvantages, use cases, and risks based on a niche topic choosen by the team. Our Team, GENerative3, choose to analyze if potential bias exists in Large Language Models (LLMs) generating interview responses for ten interview questions for a data analyst role when given a 'male' vs. a 'female' persona.  These generated outputs were then scored on a 1-5 scale by the LLM and by two humans.  Results were analyzed and concluded _________ 
+This project is a submission of the 2024 Women in Data (WiD) GenAI Playbook Datathon.  The goal of this datathon was to test multiple generative AI systems for advantages/disadvantages, use cases, and risks based on a niche topic choosen by the team. Our Team, GENerative3, choose to analyze if potential bias exists in Large Language Models (LLMs) generating interview responses for ten interview questions for a data analyst role when given a 'male' vs. a 'female' persona.  These generated outputs were then scored on a 1-5 scale by the LLM and by two humans.  Results were analyzed and concluded:
+**- No LLM scored a response less than a 4 on a scale of 1-5
+- Technical and Behavioral responses were scored roughly the same (on average) when looking at all models 
+- Humans scored models lower on average than the LLM
+- Humans and the LLM scored both sexes the same on average
+- Tableau was the only 'major' data analytics tool mentioned in LLM generated prompts
+- Marketing was the most common scenario given in generated response output (potential industry bias?)
+- On average, males were given more "wordy" responses than females
+- On average, humans and LLMs scored more "wordy" responses higher**
 
 ## Business Problem 
 When preparing for interviews, potential candidates may heavily rely on LLMs to generate "ideal" responses for multiple interview questions.  The goal is to analyze if using GenAI for interview prep is unbiased if given a specific gender as a persona.  Furthermore, our overall project question is:  "If the feedback generated is "good" "unbiased" feedback and in-line with human feedback?" If the answer is "yes" **tuned** GenAI tools could be potentially used by companies to save humans time in the interviewing process.  
